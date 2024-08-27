@@ -26,6 +26,7 @@ function buttonDesencriptar(){
     let textoDesencriptado = desencriptar(textArea.value)
     respuesta.value = textoDesencriptado
     textArea.value = "";
+    respuesta.style.backgroundImage = "none"
 }
 
 function desencriptar(stringDesencriptado) {
