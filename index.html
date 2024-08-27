@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="./Logo.png"></a>
+    </header>
+    <main>
+        <section>
+            <textarea class="cuadro_de_texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="Nota_texto">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn1" onclick="buttonEncriptar()">Encriptar</button>
+                <button class="btn2" onclick="buttonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="Respuesta_de_texto" cols="20" rows="10">
+            </textarea>
+            <div>
+                <button class="btn3" onclick="buttonCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Christofer Vizcaino</p>
+    </footer>
+    
+    <script src="/logic.js" defer></script>
+</body>
+</html>
